@@ -7,12 +7,12 @@ body {
 }
 .flex-container {
     display: flexbox;
-    justify-content: left;
+    /* justify-content: left; */
     flex-direction: column;
     width: 15em;
     height: 100vh;
     background-color: white;
-    align-items:center;
+    /* align-items:center; */
     margin: 0;
     padding: 0;
     border: solid 1px #444749;
@@ -20,18 +20,29 @@ body {
 .flex-main{
     background-color: white;
     border: solid 1px black;
-    margin: 1px;
+    margin: 0px;
     flex-basis: 200px;
-    flex-shrink: 1;
-    box-sizing: border-box;
+    /* flex-shrink: 1; */
+    /* box-sizing: border-box; */
 }
 .flex-chat{
     background-color: white;
     border: solid 1px black;
-    margin: 1px;
-    flex-basis: 200px;
-    flex-shrink: 1;
-    box-sizing: border-box;
+    margin: 0px;
+    justify-items: center;
+    /* flex-basis: 200px;
+    flex-shrink: 1; */
+    /* box-sizing: border-box; */
+}
+.button {
+    background-color: #A491D2    ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 .flex-item{
     background-color: white;
@@ -72,13 +83,12 @@ body {
     align-items: flex-start;
     height: 200px;
     margin: 0;
-    
 }
 .symbol {
     display: inline-block;
-    -ms-flex-negative: 0;
+    /* -ms-flex-negative: 0; */
     flex-shrink: 0;
-    position: relative;
+    position:relative;
     border-radius: 0.42rem;
 }
 .symbol.symbol-40 > img {
