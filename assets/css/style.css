@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Bold', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 .title {
     text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 .flex-main{
     background-color: white;
-    border: solid 1px black;
+    border: solid 1px #444749;
     margin: 0px;
     flex-basis: 200px;
     /* flex-shrink: 1; */
@@ -27,7 +27,7 @@ body {
 }
 .flex-chat{
     background-color: white;
-    border: solid 1px black;
+    border: solid 1px #444749;
     margin: 0px;
     justify-items: center;
     /* flex-basis: 200px;
@@ -35,7 +35,7 @@ body {
     /* box-sizing: border-box; */
 }
 .button {
-    background-color: #A491D2    ;
+    background-color: #A491D2;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -44,31 +44,53 @@ body {
     display: inline-block;
     font-size: 16px;
 }
-.flex-item{
+.button_chat {
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.flex-item {
+
     background-color: white;
     border: solid 1px #444749;
     margin: 0px;
-    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 200px; */
     /* flex-shrink: 1; */
     /* box-sizing:inherit; */
+}
+.imagen_de_fondo {
+    /* display: flex;
+    align-items: center; */
+    border: 0px solid;
+}
+.imagen_de_fondo img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    padding: 5px;
 }
 .mensaje_central {
 	background: white;
 	padding:20px;
-	/*FLEX*/
 	flex:1 1 30%;
-	/*flex:0 0 300px;*/
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	flex-direction: column;
-	/* justify-content: flex-end; */
     height: 100vmin;
     align-items: center;
-    
+    align-content:center;
 }
-.mensaje_central img {
+/* .mensaje_central img {
     width: 50%;
-}
+} */
 .mensaje_central div {
     border-radius: 25%;
 }
@@ -95,13 +117,15 @@ body {
     width: 100%;
     max-width: 40px;
     height: 40px;
-    border-radius: 50%
+    border-radius: 50%;
+    padding: 5px;
 }
 .symbol.symbol-10 > img {
     width: 100%;
     max-width: 50px;
     height: 50px;
-    border-radius: 50%
+    border-radius: 50%;
+    padding: 5px;
 }
 .mano {
     align-items: center;
