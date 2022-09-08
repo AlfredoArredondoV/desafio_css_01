@@ -79,14 +79,14 @@ body {
 }
 .mensaje_central {
 	background: white;
-	padding:20px;
+	padding:150px;
 	flex:1 1 30%;
 	display: flex;
 	/* flex-wrap: wrap; */
 	flex-direction: column;
     height: 100vmin;
     align-items: center;
-    align-content:center;
+    align-content: center;
 }
 /* .mensaje_central img {
     width: 50%;
@@ -129,4 +129,19 @@ body {
 }
 .mano {
     align-items: center;
+}
+.nombre {
+    font-size: 14px;
+    padding: 5px;
+}
+.nombre2 {
+    font-size: 16px;
+    padding: 3px;
+}
+.estado {
+    font-size: 10px;
+}
+.ultimo_chat {
+    font-size: 10px;
+    padding: 3px;
 }
