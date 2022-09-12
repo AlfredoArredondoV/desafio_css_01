@@ -136,6 +136,9 @@ body {
     border-radius: 50%;
     padding: 5px;
 }
+.symbol-20 {
+    /* align-content: flex-start; */
+}
 .mano {
     align-items: center;
 }
